@@ -3,41 +3,50 @@
 Note:Untuk mencoba command ini bisa menggunakan OS linux, Virtual machine basis Linux, atau bisa menggunakan Lab virtual terminal di website RedHat.com 
 
 1.     ls
-   
+   ![1 ls](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/262e79cc-d730-4a90-af98-b6857278f7f2)
+
     Command `ls` (list) digunakan untuk menampilkan daftar file dan direktori dalam direktori saat ini. Ini adalah salah satu command yang paling sering digunakan untuk navigasi file sistem. Tanpa argumen tambahan, `ls` akan menampilkan daftar file dan direktori secara vertikal.
      
 2.     cd
 
-   
+   ![2 cd](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/7bb6760f-d3a7-46a6-a0c3-70892b90afde)
+
     Command `cd` (change directory) digunakan untuk berpindah dari satu direktori ke direktori lain dalam sistem file. Anda cukup menulis `cd` diikuti dengan nama direktori yang ingin Anda masuki. Misalnya, `cd Document` akan membawa Anda ke dalam direktori "Documents".
 
 3.     mkdir
 
-   
+   ![3 mkdir](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/e3238e09-3483-48f9-8a40-ffd999a39a2d)
+
     Command `mkdir` (make directory) digunakan untuk membuat direktori baru dalam sistem file. Anda hanya perlu menuliskan `mkdir` diikuti dengan nama direktori yang ingin Anda buat. Misalnya, `mkdir Photos` akan membuat direktori baru bernama "Photos" di dalam direktori saat ini.
 
 4.     ls -l
 
-   
+   ![4 ls-1](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/5e01d337-cc51-4699-88b1-a4ca2d670e19)
+
     Command `ls -l` menampilkan daftar file dan direktori dalam format panjang. Ini memberikan informasi detail seperti hak akses, pemilik, grup, ukuran, dan waktu modifikasi untuk setiap entri dalam direktori. Misalnya, `ls -l` akan menampilkan informasi tersebut dalam format kolom yang rapi.
 
 5.     ls -a
 
-    
+    ![5 ls -a](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/a58d6376-c6e3-4878-b646-f0974200d129)
+
    Command `ls -a` menampilkan semua file dan direktori dalam direktori saat ini, termasuk yang diawali dengan titik (biasanya file rahasia). Ini berguna untuk melihat file-file yang biasanya disembunyikan. Misalnya, `ls -a` akan menampilkan semua file, termasuk yang diawali dengan titik seperti `.bashrc`.
 
 6.     pwd
 
-    
+   ![6 pwd](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/9fcb0cc5-6bfb-41fe-84cd-e881d8aec7c9)
+
     Command `pwd` (print working directory) menampilkan alamat direktori kerja saat ini (Path Working Directory). Ini berguna ketika Anda ingin tahu di mana Anda berada dalam struktur direktori sistem.
 
 7.     ps
 
-    
+    ![7 ps](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/09bbd469-ce06-4052-84f3-20ec22d82a54)
+
     Command `ps` (process status) menampilkan daftar proses yang sedang berjalan di sistem. Ini berguna untuk melihat proses-proses apa saja yang sedang berjalan, serta ID proses (PID), pemilik, dan informasi lainnya.
 
 8.     chmod
-   
+
+   ![8 chmod](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/baef1456-14a5-4ecb-a979-1d2168384206)
+
     Command `chmod` (change mode) digunakan untuk mengubah hak akses (permissions) file atau direktori. Ini memungkinkan pengguna untuk mengontrol siapa yang dapat membaca, menulis, atau mengeksekusi file atau direktori tersebut.
      Untuk melakukan command chmod perlu command tambahan seperti `chmod -R 777 file/directory` dan sejenisnya, jika ingin melihat lebih lengkap operasi chmod bisa mengunjungi laman berikut https://www.rumahweb.com/journal/chmod-adalah/
 
@@ -122,105 +131,110 @@ Note:Untuk mencoba command ini bisa menggunakan OS linux, Virtual machine basis 
                       
      Command `grep` digunakan untuk mencari pola teks dalam sebuah file. Ini dapat digunakan untuk pencarian teks yang kompleks dan pencocokan pola menggunakan ekspresi reguler.
 
-28.     zip
+27.     zip
     
       Command `zip` digunakan untuk mengkompresi suatu file menjadi bentuk `zip` , sebagai tambahan jika ingin menggunakan command tersebut bisa menggunakan `zip nama_file_zip.zip file1 file2 file3` nama_file_zip.zip: Nama untuk file zip yang akan dibuat. file1 file2 file3 ...: Daftar file yang ingin Anda kompres menjadi file zip.
 
-30.     vim
+28.     vim
 
       Command `vim` adalah editor teks yang kuat dan fleksibel yang sering digunakan dalam pengembangan perangkat lunak dan administrasi sistem.
 
-31.     nvim
+29.     nvim
 
       Command `nvim` adalah varian dari editor teks vim yang ditingkatkan (NeoVim) dengan banyak fitur tambahan dan perbaikan.
 
-32.     python
+30.     python
 
        Command `python` digunakan untuk menjalankan interpreter Python, yang memungkinkan Anda mengeksekusi perintah Python secara interaktif atau menjalankan skrip Python dari terminal.
 
-33.     ../ 
+31.     ../ 
 
        Command `../` digunakan untuk merujuk ke direktori induk (parent directory) dari direktori saat ini.
 
-34.     cd ..
+32.     cd ..
 
    Command `cd ..` digunakan untuk berpindah ke direktori induk (parent directory) dari direktori saat ini.
 
-35.     cd ~
+33.     cd ~
    
     Command `cd ~` digunakan untuk berpindah ke direktori home (direktori utama) pengguna saat ini.
 
-36.     sl
+34.     sl
 
     Command `sl` menampilkan animasi kereta yang lewat di terminal. Ini sering digunakan sebagai lelucon untuk pengguna yang salah mengetikkan perintah ls.
 
-37.     lsd
+35.     lsd
    
       Command `lsd` adalah alternatif untuk ls yang menampilkan daftar file dan direktori dalam tata letak yang lebih bersih dan berwarna.
 
-38.     htop
+36.     htop
    
        Command `htop` adalah utilitas monitor sistem interaktif yang menampilkan daftar proses yang sedang berjalan dan penggunaan sumber daya sistem dalam tampilan yang lebih ramah pengguna dibandingkan top.
 
-39.     nvtop
+37.     nvtop
 
       Command `nvtop` adalah utilitas monitor sistem interaktif yang menampilkan penggunaan GPU NVIDIA dalam tampilan yang lebih ramah pengguna.
 
-40.     bpytop
+38.     bpytop
 
        Command `bpytop` adalah utilitas monitor sistem interaktif yang menampilkan penggunaan sumber daya sistem dalam tampilan yang lebih ramah pengguna dan interaktif.
 
-41.     xdg-open
+39.     xdg-open
 
      Command `xdg-open` digunakan untuk membuka file atau URL menggunakan aplikasi default yang terkait dengan jenis file atau URL tersebut.
 
-42.     kwrite
+40.     kwrite
     
       Command `kwrite` adalah editor teks sederhana yang tersedia di lingkungan desktop KDE.
 
-43.     libreoffice
+41.     libreoffice
 
       Command `libreoffice` digunakan untuk membuka atau membuat dokumen menggunakan suite produktivitas LibreOffice.
 
-44.     diff
+42.     diff
   
       Command `diff` digunakan untuk membandingkan isi dua file dan menampilkan perbedaan di antara keduanya.
 
-45.     rm
+43.     rm
   
      Command `rm` digunakan untuk menghapus file. Jika Anda ingin menghapus direktori, Anda perlu menggunakan opsi -r (misalnya, `rm -r`) untuk menghapus secara rekursif.
 
-46.     rm -r
+44.     rm -r
 
      Command `rm -r` digunakan untuk menghapus direktori secara rekursif bersama dengan semua file dan subdirektori di dalamnya.
 
-47.     rmdir
+45.     rmdir
 
      Command `rmdir` digunakan untuk menghapus direktori kosong dari sistem.
 
-48.     ping
+46.     ping
  
      Command `ping` digunakan untuk menguji koneksi jaringan dengan mengirimkan paket ke host tertentu dan menunggu balasan.
 
-49.     wget
+47.     wget
 
      Command `wget` digunakan untuk mengunduh file dari internet menggunakan protokol HTTP, HTTPS, atau FTP.
 
-50.     curl
+48.     curl
   
      Command `curl` digunakan untuk mendapatkan atau mengirim data menggunakan berbagai protokol seperti HTTP, HTTPS, FTP, dan banyak lagi.
 
-51.     nano
+49.     nano
   
     Command `nano` adalah editor teks sederhana yang sering digunakan untuk mengedit file konfigurasi atau skrip kecil.
 
-52.     echo >
+50.     echo >
  
      Command `echo >` digunakan untuk membuat file kosong atau mengganti konten file yang ada dengan teks yang ditentukan. Misalnya, `echo "Hello, world!" > file.txt` akan menulis teks "Hello, world!" ke dalam file.txt.
 
-53.     last
+51.     last
 
       Command `last`digunakan untuk melihat login terakhir user
+
+
+52.     cmatrix
+
+     Command `cmatrix` digunakan untuk memunculkan tampilan layar berbentuk matrix
 
 
 
