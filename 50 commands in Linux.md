@@ -39,6 +39,7 @@ Note:Untuk mencoba command ini bisa menggunakan OS linux, Virtual machine basis 
 8.     chmod
    
     Command `chmod` (change mode) digunakan untuk mengubah hak akses (permissions) file atau direktori. Ini memungkinkan pengguna untuk mengontrol siapa yang dapat membaca, menulis, atau mengeksekusi file atau direktori tersebut.
+     Untuk melakukan command chmod perlu command tambahan seperti `chmod -R 777 file/directory` dan sejenisnya, jika ingin melihat lebih lengkap operasi chmod bisa mengunjungi laman berikut https://www.rumahweb.com/journal/chmod-adalah/
 
 9.     usermod
 
@@ -47,12 +48,12 @@ Note:Untuk mencoba command ini bisa menggunakan OS linux, Virtual machine basis 
 
 10.     unzip
     
-     Command `unzip` digunakan untuk mengekstrak file yang dikompresi dalam format zip. Anda hanya perlu menulis `unzip` diikuti dengan nama file zip yang ingin Anda ekstrak.
+     Command `unzip` digunakan untuk mengekstrak file yang dikompresi dalam format zip. Anda hanya perlu menulis `unzip` diikuti dengan nama file zip yang ingin Anda ekstrak, `zip_nama file`
 
 
 11.     tar -xf
     
-      Command `tar -xf` digunakan untuk mengekstrak file dari arsip tar. Pilihan `-xf` digunakan untuk menunjukkan bahwa Anda ingin mengekstrak file dari arsip tanpa kompresi tambahan.
+      Command `tar -xf` digunakan untuk mengekstrak file dari arsip tar. Pilihan `-xf` digunakan untuk menunjukkan bahwa Anda ingin mengekstrak file dari arsip tanpa kompresi tambahan. contoh nya 
 
 
 12.     tar -xzf
@@ -68,9 +69,9 @@ Note:Untuk mencoba command ini bisa menggunakan OS linux, Virtual machine basis 
 
        Command `mv` (move) digunakan untuk memindahkan atau mengubah nama file/direktori. Misalnya, Anda bisa menuliskan `mv file1.txt Documents/` untuk memindahkan file1.txt ke dalam direktori "Documents".
 
-15.     sudo -su
+15.     sudo su
 
-       Command `sudo -su` digunakan untuk beralih ke akun superuser (root) dengan menggunakan hak akses sudo. Ini memungkinkan Anda untuk menjalankan perintah sebagai superuser, memberi Anda akses penuh ke sistem.
+       Command `sudo su` digunakan untuk beralih ke akun lain. seperti `sudo su _namaUser`
 
 16.     cat
 
@@ -101,7 +102,7 @@ Note:Untuk mencoba command ini bisa menggunakan OS linux, Virtual machine basis 
 22.     sudo dnf update
         sudo apt update
 
-  Command `sudo dnf update atau sudo apt update` digunakan untuk memperbarui paket di sistem menggunakan manajer paket DNF (Dandified Yum) di distribusi Linux Fedora dan sejenisnya. Lalu pada `apt` digunakan pada sistem operasi seperti Ubuntu atau linux yang lainnya.
+      Command `sudo dnf update atau sudo apt update` digunakan untuk memperbarui paket di sistem menggunakan manajer paket DNF (Dandified Yum) di distribusi Linux Fedora dan sejenisnya. Lalu pada `apt` digunakan pada sistem operasi seperti Ubuntu atau linux yang lainnya.
 
 23.     ssh@ip
     
@@ -121,9 +122,9 @@ Note:Untuk mencoba command ini bisa menggunakan OS linux, Virtual machine basis 
                       
      Command `grep` digunakan untuk mencari pola teks dalam sebuah file. Ini dapat digunakan untuk pencarian teks yang kompleks dan pencocokan pola menggunakan ekspresi reguler.
 
-28.     pwd
+28.     zip
     
-      Command `pwd` menampilkan alamat direktori kerja saat ini (Path Working Directory). Ini adalah alat yang berguna untuk mengetahui lokasi Anda dalam struktur direktori.
+      Command `zip` digunakan untuk mengkompresi suatu file menjadi bentuk `zip` , sebagai tambahan jika ingin menggunakan command tersebut bisa menggunakan `zip nama_file_zip.zip file1 file2 file3` nama_file_zip.zip: Nama untuk file zip yang akan dibuat. file1 file2 file3 ...: Daftar file yang ingin Anda kompres menjadi file zip.
 
 30.     vim
 
