@@ -252,47 +252,66 @@ Note:Untuk mencoba command ini bisa menggunakan OS linux, Virtual machine basis 
 
 42.     diff
 
-  
+    ![39 diff](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/406e20ba-4f41-4c35-8312-7662a941cad4)
+
       Command `diff` digunakan untuk membandingkan isi dua file dan menampilkan perbedaan di antara keduanya.
 
 43.     rm
-  
+
+     ![40 rm](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/ff0c637c-0622-497e-a4fc-cdc9a0827906)
+
      Command `rm` digunakan untuk menghapus file. Jika Anda ingin menghapus direktori, Anda perlu menggunakan opsi -r (misalnya, `rm -r`) untuk menghapus secara rekursif.
 
 44.     rm -r
+
+     ![41 rm -r](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/dcd04c9f-ca39-4c20-af40-93e7d731fd18)
 
      Command `rm -r` digunakan untuk menghapus direktori secara rekursif bersama dengan semua file dan subdirektori di dalamnya.
 
 45.     rmdir
 
+     ![42 rmdir](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/3ac51098-601c-4384-ab72-5cfd7b033d0a)
+
      Command `rmdir` digunakan untuk menghapus direktori kosong dari sistem.
 
 46.     ping
- 
+
+     ![43 ping](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/95dadd6d-e595-4575-8fde-aad864d4ce1a)
+
      Command `ping` digunakan untuk menguji koneksi jaringan dengan mengirimkan paket ke host tertentu dan menunggu balasan.
 
 47.     wget
 
+     ![44 wget](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/8039ec5b-7d5e-41a7-8498-b0440c9e6166)
+
      Command `wget` digunakan untuk mengunduh file dari internet menggunakan protokol HTTP, HTTPS, atau FTP.
 
 48.     curl
-  
+
      Command `curl` digunakan untuk mendapatkan atau mengirim data menggunakan berbagai protokol seperti HTTP, HTTPS, FTP, dan banyak lagi.
 
 49.     nano
-  
+
+    ![46 nano](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/04df8760-1a1a-4822-b21f-2a60662d63e8)
+
     Command `nano` adalah editor teks sederhana yang sering digunakan untuk mengedit file konfigurasi atau skrip kecil.
 
 50.     echo >
- 
+
+     ![47 echoook](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/d58e4fef-0811-43c8-8d2e-2b422d00afe8)
+
      Command `echo >` digunakan untuk membuat file kosong atau mengganti konten file yang ada dengan teks yang ditentukan. Misalnya, `echo "Hello, world!" > file.txt` akan menulis teks "Hello, world!" ke dalam file.txt.
 
 51.     last
+
+      ![48 last](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/c31ca1fd-b293-4010-92af-73f46f20d767)
 
       Command `last`digunakan untuk melihat login terakhir user
 
 
 52.     cmatrix
+
+      ![CMATRIX](https://github.com/Chioaji/50-commands-in-Linux/assets/126127582/79eb9cfc-fbb8-48ed-a714-ab90aa8b88aa)
 
      Command `cmatrix` digunakan untuk memunculkan tampilan layar berbentuk matrix
 
